@@ -4,11 +4,14 @@
 
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>Start</title>
+</head>
 <body>
-<h1>Witaj ${sessionScope.userName}!</h1>
-<form>
+<form action="/point" method="post">
     <label>Wpisz miasto, ulice albo miejsce</label>
-    <input type="text">
+    <input type="text" name="userInput">
     <button type="submit">Pokaz na mapie</button>
 </form>
 
