@@ -9,7 +9,7 @@
     <title>Map</title>
 </head>
 <body>
-<h1>Wspolrzedne:</h1>
+<h1>Współrzędne:</h1>
 <h3>${sessionScope.latitude}</h3>
 <h3>${sessionScope.longitude}</h3>
 

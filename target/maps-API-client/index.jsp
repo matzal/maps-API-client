@@ -10,9 +10,9 @@
 </head>
 <body>
 <form action="/point" method="post">
-    <label>Wpisz miasto, ulice albo miejsce</label>
+    <label>Wpisz miasto, ulicę albo miejsce</label>
     <input type="text" name="userInput">
-    <button type="submit">Pokaz na mapie</button>
+    <button type="submit">Pokaż na mapie</button>
 </form>
 
 </body>
