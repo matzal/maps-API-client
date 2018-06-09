@@ -21,8 +21,7 @@ public class HomeServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         APIClient apiClient = new APIClient();
-        GoogleResponse googleResponse = apiClient.getGoogleResponse(
-                request.getParameter("userInput"));
+        GoogleResponse googleResponse = apiClient.getGoogleResponse(request.getParameter("userInput"));
         if (googleResponse.getStatus().equals("INVALID_REQUEST")) {
             request.setAttribute("errorMessage", googleResponse.getErrorMessage());
         } else {

@@ -7,6 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Map</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
 </head>
 <body>
 <h1>Współrzędne:</h1>
@@ -18,5 +19,7 @@
 </c:if>
 
 <jsp:include page="map.jsp"/>
+
+<a href="http://localhost:8080" class="btn btn-default" style="background: #495057">Wstecz</a>
 </body>
 </html>
